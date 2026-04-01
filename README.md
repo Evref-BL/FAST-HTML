@@ -45,3 +45,8 @@ Still need to:
 
 Your contribution is more than welcome.
 Happy coding with HTML :)
+
+[fast]: https://github.com/moosetechnology/FAST 
+[pharo-tree-sitter]: https://github.com/Evref-BL/Pharo-Tree-Sitter
+
+
