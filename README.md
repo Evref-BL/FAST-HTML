@@ -16,7 +16,7 @@ To load FASTHTML in Pharo, execute the following in a Moose image:
 ```smalltalk  
 Metacello new  
   baseline: 'FASTHTML';  
-  repository: 'github://Evref-BL/FASTHTML:main';  
+  repository: 'github://Evref-BL/FAST-HTML:main';  
   load.
 ```  
 
