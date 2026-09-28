@@ -9,8 +9,8 @@ Class {
 { #category : 'meta' }
 FASTHTMLAttributeName class >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #AttributeName super: #FASTHTMLEntity>
 	<package: #'FAST-HTML-Model'>
 	<generated>
-	^ self
 ]

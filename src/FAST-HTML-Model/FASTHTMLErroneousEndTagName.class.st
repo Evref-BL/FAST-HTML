@@ -9,8 +9,8 @@ Class {
 { #category : 'meta' }
 FASTHTMLErroneousEndTagName class >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #ErroneousEndTagName super: #FASTHTMLEntity>
 	<package: #'FAST-HTML-Model'>
 	<generated>
-	^ self
 ]

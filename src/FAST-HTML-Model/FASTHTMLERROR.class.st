@@ -29,8 +29,8 @@ Class {
 { #category : 'meta' }
 FASTHTMLERROR class >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #ERROR super: #FASTHTMLEntity>
 	<package: #'FAST-HTML-Model'>
 	<generated>
-	^ self
 ]

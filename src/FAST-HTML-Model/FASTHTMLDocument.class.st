@@ -2,6 +2,11 @@
 ## Relations
 ======================
 
+### Children
+| Relation | Origin | Opposite | Type | Comment |
+|---|
+| `childrenNodes` | `FASTHTMLDocument` | `documentOwner` | `FASTHTMLEntity` | |
+
 ### Other
 | Relation | Origin | Opposite | Type | Comment |
 |---|
@@ -23,6 +28,9 @@ Class {
 	#superclass : 'FASTHTMLEntity',
 	#traits : '(FASTTEntity + FamixTHasImmediateSource withPrecedenceOf: FamixTHasImmediateSource)',
 	#classTraits : '(FASTTEntity classTrait + FamixTHasImmediateSource classTrait withPrecedenceOf: FamixTHasImmediateSource classTrait)',
+	#instVars : [
+		'#childrenNodes => FMMany type: #FASTHTMLEntity opposite: #documentOwner'
+	],
 	#category : 'FAST-HTML-Model-Entities',
 	#package : 'FAST-HTML-Model',
 	#tag : 'Entities'
@@ -31,8 +39,34 @@ Class {
 { #category : 'meta' }
 FASTHTMLDocument class >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #Document super: #FASTHTMLEntity>
 	<package: #'FAST-HTML-Model'>
 	<generated>
-	^ self
+]
+
+{ #category : 'adding' }
+FASTHTMLDocument >> addChildrenNode: anObject [
+
+	<ignoreForCoverage>
+	<generated>
+	^ self childrenNodes add: anObject
+]
+
+{ #category : 'accessing' }
+FASTHTMLDocument >> childrenNodes [
+	"Relation named: #childrenNodes type: #FASTHTMLEntity opposite: #documentOwner"
+
+	<ignoreForCoverage>
+	<generated>
+	<derived>
+	^ childrenNodes
+]
+
+{ #category : 'accessing' }
+FASTHTMLDocument >> childrenNodes: anObject [
+
+	<ignoreForCoverage>
+	<generated>
+	childrenNodes value: anObject
 ]
