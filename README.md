@@ -29,24 +29,16 @@ But for more details, you can have a look at this [blog-post][tree-sitter-blog].
 To use it in Pharo, you can check example below:
 
 ```smalltalk  
-res := FASTHTMLParser new parse: '<p>
+res := FASTHTMLImporter new parse: '<p>
     <button disabled>Click Me!</button>
   </p>'. 
 ```  
 
 ## NB
 
-The project is still at the very beginning. But at least now it can parse and generate a model of FASTHTML.
-Still need to:
-- Reorder classes
-- Add new properties
-- Check traits
-- Add tests
+The project is updated starting October 1 2026. It works on Moose 12+ (despite making the ci runs only for Moose 13, and this is because one of the tests is using a slot that is not defined in Moose 12, which makes the tests fail). The metamodel is complete following the description of tree sitter html original repo.
 
-Your contribution is more than welcome.
-Happy coding with HTML :)
-
+If you think an update is recommended or new feature is requested ... Your contribution is more than welcome. Happy coding with Pharo and HTML :)
 [fast]: https://github.com/moosetechnology/FAST 
-[pharo-tree-sitter]: https://github.com/Evref-BL/Pharo-Tree-Sitter
-
+[pharo-tree-sitter]: https://github.com/Evref-BL/Pharo-Tree-Sitter 
 
