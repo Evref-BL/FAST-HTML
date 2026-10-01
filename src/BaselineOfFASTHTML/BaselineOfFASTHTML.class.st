@@ -50,8 +50,7 @@ BaselineOfFASTHTML >> defineGroups: spec [
 
 	spec
 		group: 'core'
-		with: #( 'FAST-HTML-Model' 
-			   'FAST-HTML-Model-Generator' );
+		with: #( 'FAST-HTML-Model' 'FAST-HTML-Model-Generator' 'FAST-HTML-Tests' );
 		group: 'tools' with: #( 'core' 'FAST-HTML-Tools' )
 ]
 
@@ -62,7 +61,8 @@ BaselineOfFASTHTML >> definePackages: spec [
 		package: 'FAST-HTML-Model'
 		with: [ spec requires: #( 'FAST' ) ];
 		package: 'FAST-HTML-Model-Generator'; 
-		package: 'FAST-HTML-Tools'
+		package: 'FAST-HTML-Tools';
+		package: 'FAST-HTML-Tests'
 		with: [ spec requires: #( 'TreeSitter' ) ].
 
 	"In case of no Famix loaded"
