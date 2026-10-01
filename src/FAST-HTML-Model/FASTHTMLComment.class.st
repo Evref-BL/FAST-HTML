@@ -9,8 +9,8 @@ Class {
 { #category : 'meta' }
 FASTHTMLComment class >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #Comment super: #FASTHTMLEntity>
 	<package: #'FAST-HTML-Model'>
 	<generated>
-	^ self
 ]

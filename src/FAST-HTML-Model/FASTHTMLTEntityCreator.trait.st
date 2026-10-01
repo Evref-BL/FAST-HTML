@@ -14,15 +14,16 @@ Trait {
 { #category : 'meta' }
 FASTHTMLTEntityCreator classSide >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #TEntityCreator super: #Object>
 	<package: #'FAST-HTML-Model'>
 	<generated>
-	^ self
 ]
 
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newAttribute [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLAttribute new
 ]
@@ -30,6 +31,7 @@ FASTHTMLTEntityCreator >> newAttribute [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newAttributeName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLAttributeName new
 ]
@@ -37,6 +39,7 @@ FASTHTMLTEntityCreator >> newAttributeName [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newAttributeValue [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLAttributeValue new
 ]
@@ -44,6 +47,7 @@ FASTHTMLTEntityCreator >> newAttributeValue [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newComment [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLComment new
 ]
@@ -51,6 +55,7 @@ FASTHTMLTEntityCreator >> newComment [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newDoctype [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLDoctype new
 ]
@@ -58,6 +63,7 @@ FASTHTMLTEntityCreator >> newDoctype [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newDocument [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLDocument new
 ]
@@ -65,6 +71,7 @@ FASTHTMLTEntityCreator >> newDocument [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newERROR [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLERROR new
 ]
@@ -72,6 +79,7 @@ FASTHTMLTEntityCreator >> newERROR [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newElement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLElement new
 ]
@@ -79,6 +87,7 @@ FASTHTMLTEntityCreator >> newElement [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newEndTag [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLEndTag new
 ]
@@ -86,6 +95,7 @@ FASTHTMLTEntityCreator >> newEndTag [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newErroneousEndTag [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLErroneousEndTag new
 ]
@@ -93,6 +103,7 @@ FASTHTMLTEntityCreator >> newErroneousEndTag [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newErroneousEndTagName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLErroneousEndTagName new
 ]
@@ -100,6 +111,7 @@ FASTHTMLTEntityCreator >> newErroneousEndTagName [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newQuotedAttributeValue [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLQuotedAttributeValue new
 ]
@@ -107,6 +119,7 @@ FASTHTMLTEntityCreator >> newQuotedAttributeValue [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newRawText [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLRawText new
 ]
@@ -114,6 +127,7 @@ FASTHTMLTEntityCreator >> newRawText [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newScriptElement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLScriptElement new
 ]
@@ -121,6 +135,7 @@ FASTHTMLTEntityCreator >> newScriptElement [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newSelfClosingTag [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLSelfClosingTag new
 ]
@@ -128,6 +143,7 @@ FASTHTMLTEntityCreator >> newSelfClosingTag [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newStartTag [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLStartTag new
 ]
@@ -135,6 +151,7 @@ FASTHTMLTEntityCreator >> newStartTag [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newStyleElement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLStyleElement new
 ]
@@ -142,6 +159,7 @@ FASTHTMLTEntityCreator >> newStyleElement [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newTagName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLTagName new
 ]
@@ -149,6 +167,7 @@ FASTHTMLTEntityCreator >> newTagName [
 { #category : 'entity creation' }
 FASTHTMLTEntityCreator >> newText [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTHTMLText new
 ]
