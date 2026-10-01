@@ -39,6 +39,8 @@ res := FASTHTMLImporter new parse: '<p>
 The project is updated starting October 1 2026. It works on Moose 12+ (despite making the ci runs only for Moose 13, and this is because one of the tests is using a slot that is not defined in Moose 12, which makes the tests fail). The metamodel is complete following the description of tree sitter html original repo.
 
 If you think an update is recommended or new feature is requested ... Your contribution is more than welcome. Happy coding with Pharo and HTML :)
-[fast]: https://github.com/moosetechnology/FAST 
-[pharo-tree-sitter]: https://github.com/Evref-BL/Pharo-Tree-Sitter 
 
+
+[fast]: https://github.com/moosetechnology/FAST 
+[pharo-tree-sitter]: https://github.com/Evref-BL/Pharo-Tree-Sitter
+[tree-sitter-blog]: https://github.com/moosetechnology/moosetechnology.github.io/blob/c2d6c85f8c2145380db7fc0ad9994640e97b635e/_drafts/2025-03-25-tree-sitter.md
