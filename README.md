@@ -1,5 +1,8 @@
 # FASTHTML  
 
+[![Coverage Status](https://coveralls.io/repos/github/Evref-BL/FAST-HTML/badge.svg?branch=main)](https://coveralls.io/github/Evref-BL/FAST-HTML?branch=main)
+[![CI](https://github.com/Evref-BL/FAST-HTML/actions/workflows/ci.yml/badge.svg)](https://github.com/Evref-BL/FAST-HTML/actions/workflows/ci.yml)
+
 FASTHTML is a recently created project that integrates with Moose and leverages the Tree-Sitter parser to analyze HTML files in Pharo.  
 
 ## Features  
