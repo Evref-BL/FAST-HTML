@@ -8,10 +8,11 @@ Class {
 	#package : 'FAST-HTML-Tools'
 }
 
-{ #category : 'as yet unclassified' }
-FASTHTMLImporter >> deleteTreeSitterParser [
-	
-	self tsParser delete 
+{ #category : 'accessing' }
+FASTHTMLImporter class >> extensions [
+	"File extensions without the dot that the importer handles"
+
+	^ #( 'html' 'htm' )
 ]
 
 { #category : 'as yet unclassified' }
@@ -46,13 +47,6 @@ FASTHTMLImporter >> importToFAST: tsTree usingSourceCode: aString [
 	importer originString: aString. 
 	
 	^ importer import: tsTree .
-]
-
-{ #category : 'as yet unclassified' }
-FASTHTMLImporter >> initialiseTreeSitterParser [
-
-	self tsParser: TSParser new.
-	self tsParser language: TSLanguage html.
 ]
 
 { #category : 'initialization' }
@@ -133,16 +127,4 @@ FASTHTMLImporter >> representations: anObject [
 FASTHTMLImporter >> tsLanguage [
 
 	^ TSLanguage html
-]
-
-{ #category : 'accessing' }
-FASTHTMLImporter >> tsParser [
-
-	^ tsParser
-]
-
-{ #category : 'accessing' }
-FASTHTMLImporter >> tsParser: anObject [
-
-	tsParser := anObject
 ]
