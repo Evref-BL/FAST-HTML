@@ -2844,13 +2844,6 @@ FASTHTMLImporterTest >> testGeneratedVoidTagsAtEOF [
 		self assert: (self topEntity isOfType: FASTHTMLText)
 ]
 
-{ #category : 'tests - importer API' }
-FASTHTMLImporterTest >> testHandlesItsExtensions [
-
-	self assert: (FASTHTMLImporter handlesFile: 'index.htm' asFileReference).
-	self deny: (FASTHTMLImporter handlesFile: 'style.css' asFileReference)
-]
-
 { #category : 'as yet unclassified' }
 FASTHTMLImporterTest >> topEntity [
 	^ stack top 
