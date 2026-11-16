@@ -52,21 +52,3 @@ FASTHTMLDocument >> addChildrenNode: anObject [
 	<generated>
 	^ self childrenNodes add: anObject
 ]
-
-{ #category : 'accessing' }
-FASTHTMLDocument >> childrenNodes [
-	"Relation named: #childrenNodes type: #FASTHTMLEntity opposite: #documentOwner"
-
-	<ignoreForCoverage>
-	<generated>
-	<derived>
-	^ childrenNodes
-]
-
-{ #category : 'accessing' }
-FASTHTMLDocument >> childrenNodes: anObject [
-
-	<ignoreForCoverage>
-	<generated>
-	childrenNodes value: anObject
-]
