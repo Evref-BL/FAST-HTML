@@ -36,10 +36,13 @@ BaselineOfFASTHTML >> defineDependencies: spec [
 				repository: 'github://moosetechnology/FAST:v3/src' ].
 
 	spec baseline: 'TreeSitter' with: [
-			spec
-				loads: #( 'moose' 'html' );
-				repository: 'github://Evref-BL/Pharo-Tree-Sitter:v3.3.1/src' ].
-	spec project: 'FASTTool' copyFrom: 'FAST' with: [ spec loads: #( 'core' 'tools' ) ]
+		spec
+			loads: #( 'moose' 'html');
+			repository: 'github://Evref-BL/Pharo-Tree-Sitter:v3.x.x/src' ].
+	spec
+		project: 'FASTTool'
+		copyFrom: 'FAST'
+		with: [ spec loads: #( 'core' 'tools' ) ]. 
 ]
 
 { #category : 'baselines' }
